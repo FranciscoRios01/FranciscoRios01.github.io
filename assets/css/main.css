@@ -354,11 +354,13 @@ body {
   margin: auto;
   padding: 150px;
 }
-.column-animatic img {
-   width: 115%;
-   height: 100%;
-}
 
+@media screen and (min-width: 600px) {
+  .column-animatic img {
+    width: 115%;
+    height: 100%;
+ }
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1040px) {
   .columnh img {
