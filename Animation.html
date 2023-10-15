@@ -1,105 +1,183 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>HTML5</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />		
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Noto+Serif+KR:wght@700&family=Pacifico&family=Petit+Formal+Script&display=swap" rel="stylesheet">
-		<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  <head>
+    <title>HTML5</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Noto+Serif+KR:wght@700&family=Pacifico&family=Petit+Formal+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  </head>
+  <body class="is-preload">
+    <!-- navbar -->
+    <div class="w3-top">
+      <div class="w3-bar header">
+        <a
+          href="index.html"
+          class="w3-bar-item w3-left w3-button w3-wide w3-hide-large hide-fold logo-fonts"
+          >Francisco</a
+        >
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-margin-right-xl">
+          <a href="index.html" class="w3-bar-item w3-button">HOME</a>
 
-	</head>
-	<body class="is-preload">
+          <!-- Dropdown Gallery -->
+          <div class="w3-dropdown-hover">
+            <button
+              class="w3-button"
+              title="gallery Dropdown menu"
+              type="button"
+            >
+              Gallery
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="10"
+                viewBox="0 0 15 15"
+              >
+                <path fill="currentColor" d="M7.5 12L0 4h15l-7.5 8Z" />
+              </svg>
+            </button>
+            <div class="w3-dropdown-content w3-card w3-bar-block">
+              <a href="Animation.html" class="w3-bar-item w3-button"
+                >ANIMATION</a
+              >
+              <a href="animatics.html" class="w3-bar-item w3-button"
+                >ANIMATICS</a
+              >
+              <a href="background.html" class="w3-bar-item w3-button"
+                >BACKGROUND</a
+              >
+              <a href="characterDesing.html" class="w3-bar-item w3-button"
+                >CHARACTER DESIGN</a
+              >
+              <a href="illustration.html" class="w3-bar-item w3-button"
+                >ILLUSTRATION</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header -->
+    <header id="header" class="w3-container w3-padding-16 header">
+      <h1 class="w3-xxxlarge">
+        <a
+          href="index.html"
+          class="w3-button-logo w3-hide-small w3-wide w3-hover-opacity logo-fonts"
+          >Francisco Rios</a
+        >
+        <a
+          href="index.html"
+          class="w3-button-logo w3-hide-large w3-hide-medium w3-wide little-logo w3-hover-opacity logo-fonts"
+          >Francisco</a
+        >
+      </h1>
+      <h4>
+        <div class="tooltip">
+          <button class="w3-button-logo" onclick="copyText()">
+            <span class="tooltiptext" id="myTooltip">COPY</span>
+            <span class="w3-button-logo w3-hover-opacity"
+              >pachofrancisco7@gmail.com</span
+            >
+          </button>
+        </div>
+      </h4>
+    </header>
 
-		<!-- navbar -->
-		<div class="w3-top">
-			<div class="w3-bar header">
-				<a href="index.html" class="w3-bar-item w3-left w3-button w3-wide w3-hide-large hide-fold logo-fonts">Francisco</a>
-				<!-- Right-sided navbar links -->
-				<div class="w3-right  w3-margin-right-xl">
-					<a href="index.html" class="w3-bar-item w3-button">HOME</a>
-					
-					<!-- Dropdown Gallery -->
-					<div class="w3-dropdown-hover">
-						<button class="w3-button" title="gallery Dropdown menu" type="button">
-							Gallery <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 15 15"><path fill="currentColor" d="M7.5 12L0 4h15l-7.5 8Z"/></svg>
-						</button>
-						<div class="w3-dropdown-content w3-card w3-bar-block">
-							<a href="Animation.html" class="w3-bar-item w3-button">ANIMATION</a>
-							<a href="animatics.html" class="w3-bar-item w3-button">ANIMATICS</a>
-							<a href="background.html" class="w3-bar-item w3-button">BACKGROUND</a>
-							<a href="characterDesing.html" class="w3-bar-item w3-button">CHARACTER DESIGN</a>
-							<a href="illustration.html" class="w3-bar-item w3-button">ILLUSTRATION</a>
-						</div>
-					</div>					
-				</div>
-			</div>
-		</div>
-					<!-- header -->
-					<header id="header" class="w3-container  w3-padding-16 header">				
-						<h1 class="w3-xxxlarge">
-							<a href="index.html"  class="w3-button-logo w3-hide-small w3-wide w3-hover-opacity logo-fonts">Francisco Rios</a>
-							<a href="index.html"  class="w3-button-logo w3-hide-large w3-hide-medium w3-wide little-logo w3-hover-opacity logo-fonts">Francisco</a>						
-						</h1>
-						<h4>
-							<div class="tooltip">
-								<button class="w3-button-logo" onclick="copyText()">
-								  <span class="tooltiptext" id="myTooltip">COPY</span>
-								  <span class="w3-button-logo w3-hover-opacity" >pachofrancisco7@gmail.com</span>
-								  </button>
-								</div>
-							
-						</h4>												
-					</header>
+    <!-- Line -->
+    <span class="line"></span>
 
-					<!-- Line -->
-					<span class="line"></span>	
+    <!-- buttons -->
+    <div class="parent">
+      <!-- type of gallery -->
+      <!-- <button class="circle w3-margin-right" onclick="get_toggle();" title="Toggle the light" type="button"><img src="images\icon\grid.svg" alt="" width="" height="23"></button>-->
 
-					<!-- buttons -->
-					<div class="parent">
-						<!-- type of gallery -->
-						<!-- <button class="circle w3-margin-right" onclick="get_toggle();" title="Toggle the light" type="button"><img src="images\icon\grid.svg" alt="" width="" height="23"></button>-->
+      <!-- themes -->
+      <button
+        onclick="myFunction();"
+        class="w3-button w3-margin-right"
+        title="Toggle themes"
+        type="button"
+      >
+        Theme
+      </button>
+      <div id="myDIV" class="DSP-none">
+        <div
+          class="circle"
+          id="default"
+          onclick="toggleTheme('Default');"
+        ></div>
+        <div class="circle" id="Dark" onclick="toggleTheme('Dark');"></div>
+        <div
+          class="circle"
+          id="dark-crisp"
+          onclick="toggleTheme('Dark - Crisp');"
+        ></div>
+        <div class="circle" id="Pampas" onclick="toggleTheme('Pampas');"></div>
+      </div>
+    </div>
 
-						<!-- themes -->
-						<button onclick="myFunction();" class="w3-button w3-margin-right" title="Toggle themes" type="button">Theme</button>
- 							<div id="myDIV" class="DSP-none">
-								<div class="circle" id="default" onclick="toggleTheme('Default');"></div>
-								<div class="circle" id="Dark" onclick="toggleTheme('Dark');"></div>
-								<div class="circle" id="dark-crisp" onclick="toggleTheme('Dark - Crisp');"></div>
-								<div class="circle" id="Pampas" onclick="toggleTheme('Pampas');"></div>
-							</div>
-					</div>
+    <!-- Main -->
+    <div id="gallery" class="row hover08">
+      <!-- Display type one -->
+      <div class="DSP" id="type-one">
+        <div class="row-animatic">
+          <div class="container columnh">
+            <a
+              href="https://youtu.be/5-D8mUsmu7g"
+              data-poptrox="youtube,1920×1080"
+              ><img
+                class="imgseco w3-margin-bottom w3-margin-top w3-hover-shadow"
+                src="images\thumbs\animation\01.jpg"
+                width="640"
+                height="360"
+                alt="reel thumbnail"
+            /></a>
+            <h3 class="w3-center logo-fonts">REEL</h3>
+          </div>
+        </div>
+      </div>
+    </div>
 
-						<!-- Main -->
-						<div id="gallery" class="row hover08 ">
+    <!-- Footer -->
+    <section id="footer" class="w3-bottom">
+      <section class="w3-center w3-container w3-padding">
+        <a
+          href="https://www.linkedin.com/in/francisco-rios-109a951b5/"
+          target="_blank"
+          ><img
+            src="images\icon\linkedin-fill.svg"
+            alt="linkedin logo"
+            class="w3-hover-opacity"
+            width="25"
+            height="25"
+        /></a>
+        <a
+          href="mailto:pachofrancisco7@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="images\icon\mail-outline.svg"
+            alt="mail logo"
+            class="w3-hover-opacity"
+            width="25"
+            height="25"
+        /></a>
+      </section>
+    </section>
 
-
-							<!-- Display type one -->
-							<div class="DSP" id="type-one">
-								<div class="row-animatic">
-									<div class=" container columnh">
-										<a href="https://youtu.be/5-D8mUsmu7g" data-poptrox="youtube,1920×1080"><img class="imgseco w3-margin-bottom w3-margin-top w3-hover-shadow" src="images\thumbs\animation\01.jpg" width="640" height="360" alt="reel thumbnail" /></a>
-										<h3 class="w3-center logo-fonts">REEL</h3>
-									</div>
-								
-								</div>							
-							</div>
-						</div>
-
-					<!-- Footer -->
-					<section id="footer" class="w3-bottom">						
-						<section class="w3-center w3-container w3-padding ">
-							<a href="https://www.linkedin.com/in/francisco-rios-109a951b5/" target="_blank"><img src="images\icon\linkedin-fill.svg" alt="linkedin logo" class="w3-hover-opacity" width="25" height="25"></a>
-							<a href="mailto:pachofrancisco7@gmail.com" target="_blank" rel="noopener noreferrer"><img src="images\icon\mail-outline.svg" alt="mail logo" class="w3-hover-opacity" width="25" height="25"></a>
-							
-						</section>
-					</section>
-
-					<!-- Scripts -->			
-					<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-					<script src="assets\js\jquery.poptrox.min.js"></script>
-					<script src="assets/js/main.js"></script>					
-	</body>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="assets\js\jquery.poptrox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
